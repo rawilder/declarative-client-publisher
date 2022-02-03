@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: declarativeclientpublisher
+  server:
+    port: 8080
+    netty:
+      chunked-supported: false
+netty:
+  default:
+    allocator:
+      max-order: 3
